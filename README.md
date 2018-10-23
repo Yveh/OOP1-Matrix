@@ -23,8 +23,7 @@
 
 并完成如下两个函数,返回矩阵的第 i 行/列。
 
-1. ```Matrix<T> row(std::size_t i) const```language
-```
+1. ```Matrix<T> row(std::size_t i) const```
 
 2. ```Matrix<T> column(std::size_t i) const```
 
