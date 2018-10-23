@@ -95,12 +95,3 @@
 5. ```void resize(std::size_t n, std::size_t m, T _init = T())```。 保留前 n × m 个元素,若元素不足则拿```_init``` 补充,并重新以行优先方式组成新矩阵。若元素个数相同,则不允许重新开设内存空间。
 
 6. ```void resize(std::pair<std::size_t, std::size_t> sz, T _init= T())```。 要求同上。
-
-
-##说明
-
-1. 整个项目基于 ```C++14``` 标准完成。
-
-2. 编译命令:```g++ test.cpp -o test -std=C++14 -O2 -Wall -lopenblas```
-
-3. 尽可能项目中少出现 ```Warning```,有助于减少不必要的 bug。
